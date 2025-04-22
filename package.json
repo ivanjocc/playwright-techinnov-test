@@ -6,7 +6,10 @@
   "scripts": {
     "test": "playwright test",
     "report": "playwright show-report",
-    "chrome": "playwright test --project=chromium"
+    "chrome": "playwright test --project=chromium",
+    "firefox": "playwright test --project=firefox",
+    "webkit": "playwright test --project=webkit",
+    "test:debug": "playwright test --debug"
   },
   "keywords": [],
   "author": "",
