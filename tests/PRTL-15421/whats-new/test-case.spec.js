@@ -19,5 +19,10 @@ test('Learner can navigate to What’s New section through the sidebar', async (
 
   await expect(page.getByRole('heading', { name: "What's New" })).toBeVisible();
 
-  await page.screenshot({ path: 'whats-new-screenshot.png' });
+  // request load page
+  await page.waitForLoadState('load');
+
+  await page.waitForTimeout(2000);
+
+  // await page.screenshot({ path: 'whats-new-screenshot.png' });
 });
