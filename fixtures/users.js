@@ -1,4 +1,4 @@
 export const learnerUser = {
-	email: 'learner.01@test.com',
+	email: 'learner.03@test.com',
 	password: 'Lrdgp@$$1'
 };
